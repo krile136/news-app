@@ -21,7 +21,6 @@ export default HomeScreen = ({ navigation }) => {
       console.error(error);
     }
   };
-  console.log(articles);
 
   return (
     <SafeAreaView style={styles.container}>
